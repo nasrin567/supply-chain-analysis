@@ -32,4 +32,4 @@ before running the notebook.
 data/
 ├── DataCoSupplyChainDataset.csv
 ├── DescriptionDataCoSupplyChain.csv
-└── README.md
+
