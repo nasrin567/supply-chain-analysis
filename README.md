@@ -247,6 +247,10 @@ The project uses a **Random Forest Classifier**.
 | Recall | **75%** |
 | F1-score — Class 1 | **77%** |
 
+### 📊 Random Forest Results
+
+![Random Forest Results](images/random_forest_results.png)
+
 The model provides a practical baseline for identifying orders with elevated late-delivery risk.
 
 ---
