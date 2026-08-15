@@ -3,38 +3,33 @@
 This project uses the **DataCo Smart Supply Chain Dataset** for analyzing
 delivery performance, operational bottlenecks, profitability, and delayed-order risk.
 
-## 📁 Required Dataset Files
+## 📁 Required Files
 
-The notebook uses the following files:
+The notebook requires these two files:
 
 - `DataCoSupplyChainDataset.csv` — Main supply chain transaction dataset
-- `DescriptionDataCoSupplyChain.csv` — Dataset column/field descriptions
+- `DescriptionDataCoSupplyChain.csv` — Dataset field and column descriptions
 
 ## 🔗 Dataset Source
 
-### 📦 DataCo Smart Supply Chain Dataset
-[Download / View Dataset on Kaggle](https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis)
+The dataset can be downloaded from Kaggle:
 
-The dataset package contains both required CSV files.
+👉 [DataCo Smart Supply Chain Dataset](https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis)
 
-### 📄 Main Dataset
-[DataCoSupplyChainDataset.csv](https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis)
-
-### 📖 Dataset Description
-[DescriptionDataCoSupplyChain.csv](https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis)
+The Kaggle dataset package contains both required CSV files.
 
 ## ⚠️ Note
 
-The original `DataCoSupplyChainDataset.csv` is not included in this
-repository because of GitHub's file-size limitation.
+`DataCoSupplyChainDataset.csv` is not included in this repository because
+it exceeds GitHub's file-size limitation.
 
-Download the dataset from Kaggle and place the required CSV files inside
-the `data/` folder before running the notebook.
+Download the dataset from Kaggle and place both CSV files in this folder
+before running the notebook.
 
-## 📂 Expected Structure
+## 📂 Folder Structure
 
 ```text
 data/
-│
 ├── DataCoSupplyChainDataset.csv
-└── DescriptionDataCoSupplyChain.csv
+├── DescriptionDataCoSupplyChain.csv
+└── README.md
