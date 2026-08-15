@@ -1,31 +1,23 @@
-# 📦 Supply Chain & Delivery Performance Analysis
+# Supply Chain Analysis
 
-## 📌 Project Overview
+## Overview
 
-This project analyzes a real-world e-commerce supply chain dataset to identify delivery bottlenecks, evaluate shipment profitability, and uncover operational inefficiencies. Using Python, the project follows an end-to-end data analytics workflow, including data cleaning, feature engineering, exploratory data analysis (EDA), visualization, and predictive modeling.
+An end-to-end supply chain analytics project using Python to analyze delivery performance, identify operational bottlenecks, evaluate profitability risks, and predict delayed orders.
 
-The objective is to help businesses improve delivery performance, reduce delays, optimize shipping operations, and support data-driven decision-making.
+## Business Problem
 
----
+The company faces inconsistent delivery performance, resulting in late deliveries, reduced profitability, and operational inefficiencies.
 
-## 🎯 Business Problem
+## Objectives
 
-A global e-commerce company experiences inconsistent delivery performance, where actual shipping times often differ from scheduled timelines. These delays reduce customer satisfaction and impact overall profitability.
-
----
-
-## 🎯 Objectives
-
-- Analyze delivery performance across orders
-- Measure shipment delays and processing time
-- Identify factors contributing to delayed deliveries
-- Analyze profit and loss associated with delivery delays
+- Analyze delivery performance
+- Identify major causes of delays
+- Evaluate profitability by delay
 - Detect operational bottlenecks
-- Predict delayed shipments using Machine Learning
+- Analyze seasonal and time-based delay patterns
+- Predict high-risk delayed orders
 
----
-
-## 🛠️ Technologies Used
+## Tools & Technologies
 
 - Python
 - Pandas
@@ -35,111 +27,54 @@ A global e-commerce company experiences inconsistent delivery performance, where
 - Scikit-learn
 - Jupyter Notebook
 
----
+## Key Analysis
 
-## 📂 Dataset
+### Data Cleaning & Feature Engineering
+- Removed irrelevant and redundant columns
+- Converted date fields
+- Calculated order processing time
+- Calculated delivery delays
+- Created delayed-order indicators
+- Created profitability classifications
 
-**Dataset:** DataCo Supply Chain Dataset
-
-The dataset contains information about:
-
-- Customer Details
-- Product Information
-- Order Details
-- Shipping Information
-- Delivery Status
-- Profit & Sales Data
-
----
-
-## 📊 Project Workflow
-
-### 1️⃣ Data Cleaning
-- Removed unnecessary and redundant columns
-- Handled missing values
-- Converted date columns to datetime format
-- Filtered cancelled orders
-
-### 2️⃣ Feature Engineering
-Created new business metrics such as:
-
-- Order Processing Time
-- Delivery Delay
-- Delay Flag
-- Profitability Flag
-- Order Month
-- Order Day
-- Order Hour
-
-### 3️⃣ Exploratory Data Analysis (EDA)
-
-Performed analysis on:
-
-- Delivery delays
+### Exploratory Data Analysis
 - Profitability distribution
-- Shipping modes
-- Customer segments
-- Product categories
-- Geographic performance
-- Time-based trends
+- Delay distribution
+- Profit vs. delay analysis
+- Delay analysis by region
+- Delay analysis by customer segment
+- Delay analysis by shipping mode
+- Delay analysis by department and product type
 
-### 4️⃣ Business KPIs
+### Predictive Modeling
 
-Calculated key metrics including:
+A Random Forest model was developed to identify high-risk delayed orders.
 
-- Total Orders
-- Late Deliveries
-- On-Time Delivery Rate
-- Late Delivery Rate
-- Total Profit
-- Profit Loss Due to Delays
+**Model Accuracy:** ~74%
 
-### 5️⃣ Predictive Modeling
+## Key Findings
 
-Built a **Random Forest Classifier** to predict delayed shipments based on historical order information.
+- Late delivery rate: **54.71%**
+- Profit at risk: **$2.1M**
+- First Class showed severe delivery-performance issues
+- Second Class also showed significant delays
+- Shipping mode was identified as a major operational driver
 
----
+## Business Recommendations
 
-## 📈 Key Insights
+- Correct shipping-mode configuration
+- Deploy predictive risk scoring
+- Improve payment-processing operations
+- Plan for seasonal demand spikes
+- Monitor high-risk orders proactively
 
-- Majority of orders were delivered within 0–2 days of scheduled delivery.
-- Shipment delays significantly reduced overall profitability.
-- Certain shipping modes experienced higher delay rates.
-- Delivery performance varied across different regions and product categories.
-- Predictive modeling successfully identified high-risk delayed orders.
+## Project Structure
 
----
-
-## 📁 Project Structure
-
-```
-Supply_Chain_Analysis/
+```text
+Supply-Chain-Analysis-Python/
 │
 ├── supply_chain_analysis.ipynb
-├── DataCoSupplyChainDataset.csv
-├── DescriptionDataCoSupplyChain.csv
 ├── README.md
-```
-
----
-
-## 🚀 Future Improvements
-
-- Build an interactive Power BI dashboard
-- Deploy the prediction model using Streamlit
-- Automate reporting with scheduled data refresh
-- Optimize model performance using hyperparameter tuning
-
----
-
-## 📸 Project Preview
-
-Add screenshots of:
-
-- Profitability Distribution
-- Delay Distribution
-- Profit Analysis by Delay
-- Shipping Mode Analysis
-- Correlation Heatmap
-- Machine Learning 
----
+├── requirements.txt
+├── data/
+└── images/
