@@ -1,35 +1,36 @@
-# Supply Chain Analysis
+# 📦 Supply Chain Analysis
 
-## Overview
+## 📌 Overview
 
-An end-to-end supply chain analytics project using Python to analyze delivery performance, identify operational bottlenecks, evaluate profitability risks, and predict delayed orders.
+An end-to-end supply chain analytics project using **Python** to analyze delivery performance, identify operational bottlenecks, evaluate profitability risks, and predict delayed orders.
 
-## Business Problem
+## 🎯 Business Problem
 
-The company faces inconsistent delivery performance, resulting in late deliveries, reduced profitability, and operational inefficiencies.
+The company faces inconsistent delivery performance, resulting in **late deliveries, reduced profitability, and operational inefficiencies**.
 
-## Objectives
+## 🎯 Objectives
 
-- Analyze delivery performance
-- Identify major causes of delays
-- Evaluate profitability by delay
-- Detect operational bottlenecks
-- Analyze seasonal and time-based delay patterns
-- Predict high-risk delayed orders
+- 🚚 Analyze delivery performance
+- 🔍 Identify major causes of delays
+- 💰 Evaluate profitability by delay
+- ⚙️ Detect operational bottlenecks
+- 📅 Analyze seasonal and time-based delay patterns
+- 🤖 Predict high-risk delayed orders
 
-## Tools & Technologies
+## 🛠️ Tools & Technologies
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Jupyter Notebook
+- 🐍 Python
+- 🐼 Pandas
+- 🔢 NumPy
+- 📊 Matplotlib
+- 📈 Seaborn
+- 🤖 Scikit-learn
+- 📓 Jupyter Notebook
 
-## Key Analysis
+## 🔧 Key Analysis
 
-### Data Cleaning & Feature Engineering
+### 🧹 Data Cleaning & Feature Engineering
+
 - Removed irrelevant and redundant columns
 - Converted date fields
 - Calculated order processing time
@@ -37,44 +38,45 @@ The company faces inconsistent delivery performance, resulting in late deliverie
 - Created delayed-order indicators
 - Created profitability classifications
 
-### Exploratory Data Analysis
-- Profitability distribution
-- Delay distribution
-- Profit vs. delay analysis
-- Delay analysis by region
-- Delay analysis by customer segment
-- Delay analysis by shipping mode
-- Delay analysis by department and product type
+### 📊 Exploratory Data Analysis
 
-### Predictive Modeling
+- 💰 Profitability distribution
+- 🚚 Delay distribution
+- 📉 Profit vs. delay analysis
+- 🌍 Delay analysis by region
+- 👥 Delay analysis by customer segment
+- 🚛 Delay analysis by shipping mode
+- 🏷️ Delay analysis by department and product type
 
-A Random Forest model was developed to identify high-risk delayed orders.
+### 🤖 Predictive Modeling
 
-**Model Accuracy:** ~74%
+A **Random Forest** model was developed to identify high-risk delayed orders.
 
-## Key Findings
+**🎯 Model Accuracy:** ~74%
 
-- Late delivery rate: **54.71%**
-- Profit at risk: **$2.1M**
-- First Class showed severe delivery-performance issues
-- Second Class also showed significant delays
-- Shipping mode was identified as a major operational driver
+## 🔑 Key Findings
 
-## Business Recommendations
+- 🚨 Late delivery rate: **54.71%**
+- 💵 Profit at risk: **$2.1M**
+- 🚚 First Class showed severe delivery-performance issues
+- 📦 Second Class also showed significant delays
+- ⚠️ Shipping mode was identified as a major operational driver
 
-- Correct shipping-mode configuration
-- Deploy predictive risk scoring
-- Improve payment-processing operations
-- Plan for seasonal demand spikes
-- Monitor high-risk orders proactively
+## 💡 Business Recommendations
 
-## Project Structure
+- 🚛 Correct shipping-mode configuration
+- 🤖 Deploy predictive risk scoring
+- 💳 Improve payment-processing operations
+- 📅 Plan for seasonal demand spikes
+- 🔔 Monitor high-risk orders proactively
+
+## 📁 Project Structure
 
 ```text
 Supply-Chain-Analysis-Python/
 │
-├── supply_chain_analysis.ipynb
-├── README.md
-├── requirements.txt
-├── data/
-└── images/
+├── 📓 supply_chain_analysis.ipynb
+├── 📄 README.md
+├── ⚙️ requirements.txt
+├── 📂 data/
+└── 🖼️ images/
