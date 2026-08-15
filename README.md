@@ -1,4 +1,4 @@
-# 🚚 Supply Chain Analysis | Python
+# 🚚 Supply Chain Analysis 
 
 An end-to-end supply chain analytics project focused on delivery performance, operational bottlenecks, profitability risk, and predictive identification of delayed orders.
 
