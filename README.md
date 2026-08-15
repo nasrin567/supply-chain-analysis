@@ -305,6 +305,9 @@ Track:
 # 🗂️ Project Structure
 
 ```text
+## 🗂️ Project Structure
+
+```text
 Supply-Chain-Analysis/
 │
 ├── 📓 supply_chain_analysis.ipynb
@@ -312,17 +315,16 @@ Supply-Chain-Analysis/
 ├── ⚙️ requirements.txt
 │
 ├── 📂 data/
-│   ├── DataCoSupplyChainDataset.csv
-│   └── DescriptionDataCoSupplyChain.csv
-│
+│   ├── 📄 README.md
+│  
 └── 🖼️ images/
-    ├── profitability_distribution.png
-    ├── delay_and_profit_analysis.png
-    ├── bottleneck_detection.png
-    ├── root_cause_central_africa.png
-    ├── root_cause_east_africa.png
-    ├── time_based_delay_analysis.png
-    └── random_forest_results.png
+    ├── 📊 profitability_distribution.png
+    ├── 📈 delay_and_profit_analysis.png
+    ├── 🚨 bottleneck_detection.png
+    ├── 🌍 root_cause_central_africa.png
+    ├── 🌍 root_cause_east_africa.png
+    ├── 🕒 time_based_delay_analysis.png
+    └── 🤖 random_forest_results.png
 
 
 
