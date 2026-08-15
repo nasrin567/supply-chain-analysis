@@ -305,9 +305,6 @@ Track:
 # 🗂️ Project Structure
 
 ```text
-## 🗂️ Project Structure
-
-```text
 Supply-Chain-Analysis/
 │
 ├── 📓 supply_chain_analysis.ipynb
@@ -325,6 +322,17 @@ Supply-Chain-Analysis/
     ├── 🌍 root_cause_east_africa.png
     ├── 🕒 time_based_delay_analysis.png
     └── 🤖 random_forest_results.png
+```
+---
 
+## 👩‍💻 Author
+
+**Nasrin Khatoon**
+
+🎯 Aspiring Data Analyst | Python | SQL | Power BI | Machine Learning
+
+📌 This project demonstrates an end-to-end approach to supply chain analytics, combining data analysis, visualization, business insights, and predictive modeling.
+
+---
 
 
